@@ -1,0 +1,62 @@
+.container {
+    width: 900px;
+    height: 700px;
+}
+
+#myDiv2{
+    width: 375px;
+    height: 418px;
+    transition: 0.5s ease-in-out;
+}
+
+.tamanho{
+    width: 600px;
+}
+
+.altura{
+    height: 120px;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+  
+.efeito{
+    display: none;
+}
+
+.img-tela{
+    width: 70px;
+    height: 70px;
+}
+
+#borda-img-tela{
+    width: 90px;
+    height: 90px;
+}
+
+.img-tela2{
+    width: 60px;
+    height: 60px;
+}
+
+#myButton3{
+    width: 150px;
+}
+
+#btn_pay{
+    width: 100px;
+}
+
+.myDiv2_efeito {
+    width: 600px;
+    height: 120px;
+    transition: 0.5s ease-in-out;
+}
+
+#choose:checked{
+    background-color: green;
+    border: 0;
+}
+

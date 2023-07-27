@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo1.css">
+    <title>teste</title>
+</head>
+<body class="bg-secondary">
+    <div class="container rounded-bottom-5 bg-light" id="tudo">  
+        <div class="row text-center p-2 pt-5" id="titulo">
+            <h3 >Get started today</h3>
+            <p class="fw-lighter">Choose the righ plan and start creating projects</p>
+        </div>
+        <div class="row justify-content-evenly" id="conteudodas2divs">
+            <div class="card col-5 bg-secondary-subtle rounded-4" id="myDiv1">
+                <div class="p-3 mt-2 mb-2 rounded-4 shadow shadow-lg bg-light" id="descricao1">               
+                    <div class="row">
+                        <div class="col-4 rounded-4 align-items-center bg-secondary-subtle ps-2 pt-1" id="borda-img-tela">
+                            <div class="border rounded-4 shadow-sm ">
+                                <img src="Imagens/WhatsApp Image 2023-06-15 at 12.59.42.jpeg" alt="" srcset="" class="rounded-4">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <h5 class="pt-3 ps-4">Starter</h5>
+                            <p class="lh-1 ps-4"><span class="align-top">&euro;</span><span class="fs-3 fw-semibold ">0</span>/month</p>
+                        </div>
+                    </div>                     
+                    <div class="row ">
+                        <p class="fw-bold pt-3 pb-2">features included are,</p>
+                    </div>
+                    <div class="form-check-sm pb-3">
+                        <input class="form-check-input" type="checkbox" checked disabled>
+                        <label class="form-check-label1 ps-2">
+                        <strong>1 TB</strong> Cloud storage
+                        </label>
+                    </div>
+                    <div class="form-check-sm pb-3">
+                        <input class="form-check-input" type="checkbox" checked disabled>
+                        <label class="form-check-label1 ps-2">
+                        <strong>2</strong> Active projects
+                        </label>
+                    </div>
+                    <div class="form-check-sm pb-5">
+                        <input class="form-check-input" type="checkbox" checked disabled>
+                        <label class="form-check-label1 ps-2" >
+                        <strong>3</strong> Team members
+                        </label>
+                    </div>
+                    <div class="text-center pb-3">
+                        <button type="button" class="btn btn-primary btn ps-5 pe-5 rounded-3 " id="myButton1">
+                            Choose Started
+                        </button></div>
+                </div>
+            </div>
+            
+            <div class="col-5 bg-primary rounded-4" id="myDiv2">
+                <div class="p-3 mt-2 mb-2 rounded ">               
+                    <div class="row text-start" id="texto_barra">
+                        <div class="col-3" id="div_imgazul">
+                            <div class="">
+                                <img src="Imagens/WhatsApp Image 2023-06-15 at 12.59.42 (1).jpeg" alt="" srcset="" class="rounded-4">
+                            </div>
+                        </div>
+                        <div class="col-9 text-light" id="texto_azul">
+                            <h5 class="pt-3 ps-4">Professional</h5>
+                            <p class="lh-1 ps-4"><span class="align-top">&euro;</span> <span class="fs-3 align-baseline">24</span>/month</p>
+                        </div>
+                    </div>                     
+                    <div id="descricao_azul">
+                        <div class="row ">
+                            <p class="fw-bold pt-3 pb-2 text-light">features included are,</p>
+                        </div>
+                        <div class="form-check-sm pb-3">
+                            <input class="form-check-input" type="checkbox" id="check_pers" checked disabled>
+                            <label class="ps-2 text-light">
+                            <strong>Unlimited</strong> Cloud storage
+                            </label>
+                        </div>
+                        <div class="form-check-sm pb-3">
+                            <input class="form-check-input" type="checkbox" checked disabled>
+                            <label class="ps-2 text-light">
+                            <strong>50</strong> Active projects
+                            </label>
+                        </div>
+                        <div class="form-check-sm pb-5">
+                            <input class="form-check-input" type="checkbox" checked disabled>
+                            <label class="ps-2 text-light">
+                            <strong>88</strong> Team members
+                            </label>
+                        </div>
+                        <div class="text-center pb-3">
+                            <button type="button" class="btn btn-primary bg-light text-primary ps-5 pe-5 rounded-3" id="myButton2">
+                                Choose Professional
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="efeito" id="novobotao">
+                    <button class="btn btn-primary border border-white">
+                        Change Plan
+                    </button>
+                </div>
+            </div>
+            <div class="text-center" id="rodape">
+                <p class="pt-5 m-0">Do you need morde information on plans?</p>
+                <p class="fw-bold"><a href="#">Contact us</a></p>
+            </div>
+        </div>
+        
+        <div class="container text-center p-2 tamanho efeito" id="tela2">
+            <div class="row pt-4 pb-4 ps-3 text-start">
+                <div class="col-6">
+                    <input class="form-check-input border bg-primary" type="checkbox" id="choose" disabled>
+                    <span class="fw-bold" id="texto_choose">Choose a payment method</span>
+                </div>
+                <div class="col-4">
+                    <input class="form-check-input border" id="choose1"type="checkbox" disabled>
+                    <span id="texto_choose1">Payment details</span>
+                </div>
+            </div>
+            <div id="descricao_t2">
+                <div class="row p-2 ps-0 justify-content-around">
+                    <button class="btn col-5 border-secondary-subtle p-4 rounded-4" id="btn_credit">
+                        Credit card
+                    </button>
+                    <button class="btn col-5 border-secondary-subtle p-4 rounded-4">
+                        internet banking
+                    </button>
+                </div>
+                <div class="row p-2 ps-0 d-flex justify-content-around">
+                    <button class="btn col-5 border-secondary-subtle p-4 rounded-4">
+                        Paypal
+                    </button>
+                    <button class="btn col-5 border-secondary-subtle p-4 rounded-4">
+                        Bitcoin Wallet
+                    </button>
+                </div>
+            </div>
+
+            <div class="text-center p-2 rounded-4 tamanho efeito" id="tela3">
+                <div class="row text-start">
+                    <div class="col-12 pt-2">
+                        <p class="fw-bold">
+                            Card details
+                        </p>
+                        <div class="input-group rounded-3">
+                            <div class="col-8 rounded-0">
+                                <input type="text" class="form-control rounded-0 rounded-start-3 pt-2 pb-2 " placeholder="Card number" maxlength="16">
+                            </div>
+                            <div class="col-2 rounded-0">
+                                <input type="text" class="form-control rounded-0 pt-2 pb-2" placeholder="MM/YY" maxlength="4" >
+                            </div>
+                            <div class="col-2 rounded-0">
+                                <input type="text" class="form-control rounded-0 rounded-end-3 pt-2 pb-2" placeholder="CVC" maxlength="3" > 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-start pt-4">
+                    <div class="col-6">
+                        <p class="fw-bold">
+                            Full name
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <p class="fw-bold">
+                            Email
+                        </p>
+                    </div>
+                </div>
+                <div class="row text-start">
+                    <div class="col-6">
+                        <input type="text" class="form-control rounded pt-2 pb-2" placeholder="John Doe" maxlength="40" >
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="form-control rounded pt-2 pb-2" placeholder="john@email.com" maxlength="50" >
+                    </div>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="col-3 text-end pt-5">
+                        <button class="btn btn-primary border border-white" id="btn_pay">
+                            Pay &euro; 24
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container d-flex align-items-center d-none" id="barra_progress">
+            <div class="col">
+                <div class="text-center">
+                    <div class="col">
+                        <h4>
+                            Please wait
+                        </h4>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="col">
+                        <p>
+                            We are recieving the amount
+                        </p>
+                    </div>
+                </div>
+                <div class="row justify-content-center p-0 align-bottom">
+                    <div class="progress col-6 p-0">
+                        <div id="pb1" class="progress-bar bg-success">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container d-flex align-items-center d-none" id="pagamento">
+            <div class="col">
+                <div class="text-center">
+                    <div class="col">
+                        <h4>
+                            &#x2714;
+                        </h4>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="col">
+                        <h4>
+                            Payment done
+                        </h4>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="col">
+                        <p>
+                            The transaction was successful
+                        </p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="col">
+                        <button class="btn btn-primary border border-white col-2">
+                            Explore app
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>>
+
+    <script>
+        const myDiv1 = document.getElementById('myDiv1');
+        const myDiv2 = document.getElementById('myDiv2');  
+        const myButton2 = document.getElementById('myButton2');
+        const rodape = document.getElementById('rodape');
+        const tela2 = document.getElementById('tela2');
+        const btn_credit = document.getElementById('btn_credit');
+        const descricao_t2 = document.getElementById('descricao_t2');
+        const tela3 = document.getElementById('tela3');
+        const descricao_azul = document.getElementById('descricao_azul');
+        const conteudodas2divs = document.getElementById('conteudodas2divs');
+        const texto_barra = document.getElementById('texto_barra');
+        const div_imgazul = document.getElementById('div_imgazul');
+        const texto_azul = document.getElementById('texto_azul');
+        const novoBotao = document.getElementById('novobotao');
+        const choose = document.getElementById('choose');
+        const btn_pay = document.getElementById('btn_pay');
+        const titulo = document.getElementById('titulo');
+        const barra_progress = document.getElementById('barra_progress');
+        const tudo = document.getElementById('tudo');
+        const pagamento = document.getElementById('pagamento');
+        const texto_choose = document.getElementById('texto_choose');
+        const texto_choose1 = document.getElementById('texto_choose1');
+        const choose1 = document.getElementById('choose1');
+
+        myButton2.addEventListener('click', function() {
+            setTimeout(function() {
+                myDiv1.classList.add('fade-out');
+                rodape.classList.add('fade-out');
+                descricao_azul.classList.add('fade-out');
+            }, 1000);
+
+            setTimeout(function() {
+                
+                rodape.style.display = 'none';
+                descricao_azul.style.display = 'none';
+            }, 2200);
+
+            setTimeout(function(){
+                myDiv2.classList.add('myDiv2_efeito'); 
+                myDiv2.style.width = '600px';
+                myDiv2.style.height = '120px';
+            }, 2500)
+
+            setTimeout(function(){
+                myDiv1.style.display = 'none';
+            }, 2800)
+
+            setTimeout(function() {
+                tela2.classList.remove('efeito');
+                novoBotao.classList.remove('efeito');
+                novoBotao.classList.add('text-end', 'col-6', 'pt-3')
+                texto_barra.append(novoBotao);
+                div_imgazul.classList.remove('col-3');
+                texto_azul.classList.remove('col-9');
+                div_imgazul.classList.add('col-2');
+                texto_azul.classList.add('col-4');      
+            }, 4500);
+        })
+
+        btn_credit.addEventListener('click', function(){
+            descricao_t2.style.display = 'none';
+            tela3.classList.remove('efeito');
+            choose.checked = true;
+            choose.disabled = true;
+            texto_choose.classList.remove('fw-bold')
+            texto_choose1.classList.add('fw-bold');
+            choose1.classList.add('bg-primary')
+        })
+
+        btn_credit.addEventListener('mouseenter', function(){
+            btn_credit.classList.remove('border-secondary-subtle');
+            btn_credit.classList.add('border-primary', 'shadow');
+        })
+
+        btn_credit.addEventListener('mouseleave', function(){
+            btn_credit.classList.add('border-secondary-subtle');
+            btn_credit.classList.remove('border-primary', 'shadow');
+        })
+
+        
+
+        btn_pay.addEventListener('click', function(){
+            setTimeout(function(){
+                titulo.classList.add('fade-out');
+                tela2.classList.add('fade-out');
+                tela3.classList.add('fade-out');
+                myDiv2.classList.add('fade-out');
+            },1000)
+
+            setTimeout(function(){
+                titulo.style.display = 'none';
+                tela2.style.display = 'none';
+                tela3.style.display = 'none';
+                myDiv2.style.display = 'none';
+            },2200)
+
+            setTimeout(function(){
+                barra_progress.classList.remove('d-none');
+            },2400)
+
+            setTimeout(function(){
+                let barra = document.getElementById("pb1");
+                let carga = 0;
+
+                let intBarra = setInterval(()=>{
+                    barra.style.width = carga+"%";
+                    carga++;
+
+                    if (carga > 100) {
+                        clearInterval(intBarra); 
+                    }
+                },10)
+            },3000)
+ 
+            setTimeout(function(){
+                barra_progress.classList.add('d-none');
+                pagamento.classList.remove('d-none')
+            },5200)
+        })
+
+    </script>
+</body>
+</html>
